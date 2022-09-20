@@ -7,12 +7,12 @@
  * @s: passed pointer argument for string
  * Return: void
  */
-  
+
 void print_rev(char *s)
 {
 	int len = strlen(s);
-
-	while (len--)
+    
+    while (len--)
             _putchar(*(s + len));
     _putchar(10);
 
