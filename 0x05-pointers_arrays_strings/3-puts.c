@@ -5,14 +5,14 @@
  * @str: passed pointer argument for string
  * Return: void
  */
-void _puts(char *str)
+void puts(char *str)
 {
 	int i = 0;
 
 	while (*(str + i) != '\0')
 	{
-		_putchar(*(str + i));
+		putchar(*(str + i));
 		i++;
 	}
-	_putchar('10');
+	putchar('10');
 }
